@@ -19,7 +19,7 @@ function Dashboard() {
   const [showClientModal, setShowClientModal] = useState(false);
   const [showCVModal, setShowCVModal] = useState(false);
   const [displayedText, setDisplayedText] = useState('');
-  const fullName = 'Arnoell Kelhzcy Galano';
+  const fullName = 'Arnoell Kelhzcy Afan Galano';
 
   useEffect(() => {
     const timer = setInterval(() => setCurrentTime(new Date()), 1000);

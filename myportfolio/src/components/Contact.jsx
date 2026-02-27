@@ -47,14 +47,14 @@ function Contact() {
     {
       icon: EmailIcon,
       label: 'Email',
-      value: 'arnoell@example.com',
-      link: 'mailto:arnoell@example.com',
+      value: 'arnoellkelhzcy@gmail.com',
+      link: 'mailto:arnoellkelhzcy@gmail.com',
     },
     {
       icon: PhoneIcon,
       label: 'Phone',
-      value: '+63 XXX XXXX XXX',
-      link: 'tel:+63XXXXXXXXX',
+      value: '09094811849',
+      link: 'tel:09094811849',
     },
     {
       icon: LocationOnIcon,
