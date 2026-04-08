@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import GitHubIcon from '@mui/icons-material/GitHub';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import EmailIcon from '@mui/icons-material/Email';
 import PhoneIcon from '@mui/icons-material/Phone';
@@ -20,25 +19,19 @@ function Contact() {
     {
       name: 'Facebook',
       icon: FacebookIcon,
-      url: 'https://facebook.com',
+      url: 'https://www.facebook.com/kelhzcy.afan.galano/',
       color: '#1877F2',
     },
     {
       name: 'GitHub',
       icon: GitHubIcon,
-      url: 'https://github.com',
+      url: 'https://github.com/Kelhzcy',
       color: '#333333',
-    },
-    {
-      name: 'LinkedIn',
-      icon: LinkedInIcon,
-      url: 'https://linkedin.com',
-      color: '#0A66C2',
     },
     {
       name: 'Instagram',
       icon: InstagramIcon,
-      url: 'https://instagram.com',
+      url: 'https://www.instagram.com/kemmmot/',
       color: '#E4405F',
     },
   ];
@@ -47,14 +40,14 @@ function Contact() {
     {
       icon: EmailIcon,
       label: 'Email',
-      value: 'arnoell@example.com',
-      link: 'mailto:arnoell@example.com',
+      value: 'arnoellk@gmail.com',
+      link: 'mailto:arnoellk@gmail.com',
     },
     {
       icon: PhoneIcon,
       label: 'Phone',
-      value: '+63 XXX XXXX XXX',
-      link: 'tel:+63XXXXXXXXX',
+      value: '09094811849',
+      link: 'tel:09094811849',
     },
     {
       icon: LocationOnIcon,

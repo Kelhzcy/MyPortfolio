@@ -19,7 +19,7 @@ function Dashboard() {
   const [showClientModal, setShowClientModal] = useState(false);
   const [showCVModal, setShowCVModal] = useState(false);
   const [displayedText, setDisplayedText] = useState('');
-  const fullName = 'Arnoell Kelhzcy Galano';
+  const fullName = ' Kelhzcy Afan Galano';
 
   useEffect(() => {
     const timer = setInterval(() => setCurrentTime(new Date()), 1000);
@@ -79,7 +79,7 @@ function Dashboard() {
         <div className="header-content">
           <div className="logo">
             <img src="/Mypfp.png" alt="Profile" className="logo-image" />
-            <span className="logo-text">Arnoell Galano</span>
+            <span className="logo-text">Kelhzcy Afan Galano</span>
           </div>
           
           <nav className="header-nav">
